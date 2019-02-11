@@ -27,8 +27,6 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   cd ..
   catkin_make
   ```
-  
-                            ## How to Run ~ Simple ~ single obstacle simulation ##
                             
  ## Single obstacle simulation ##
 
