@@ -43,6 +43,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   roslaunch obstacle_detection simple.launch
   ```
   it will automatically start the obstacle detection node
+  ![](https://github.com/dvalenciar/AR.Drone_Obstacle_Detection/blob/master/pic1.png)
   
   
 3. **Take off the AR.Drone**
