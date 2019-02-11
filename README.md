@@ -52,3 +52,11 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   rostopic pub -1 /ardrone/takeoff std_msgs/Empty
   ```
 
+
+4. **Run the trajectory controller node**
+
+ ```
+ rosrun obstacle_detection PIDwithObstacleDete.py
+ ```
+
+The Drone will begin to move automatically in a straight line (until reaching the position X = 10, Y = 0). The algorithm  will detect the obstacle and avoid it.
