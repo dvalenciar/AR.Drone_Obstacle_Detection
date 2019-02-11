@@ -28,7 +28,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   catkin_make
   ```
   
-  ## How to Run ~ Simple and single obstacle simulation ##
+  ## How to Run ~ Simple ~ single obstacle simulation ##
 
 
 1. **Source your workspace environment**
@@ -40,7 +40,7 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 2. **Run a simulation by executing a launch file:**
 
   ```
-  roslaunch Belbic empty_world.launch
+  roslaunch obstacle_detection simple.launch
   ```
   it will automatically start the obstacle detection node
   
