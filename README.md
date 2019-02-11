@@ -28,8 +28,9 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
   catkin_make
   ```
   
-  ## How to Run ~ Simple ~ single obstacle simulation ##
-
+                            ## How to Run ~ Simple ~ single obstacle simulation ##
+                            
+ ## Single obstacle simulation ##
 
 1. **Source your workspace environment**
 
@@ -61,3 +62,32 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
 
 The Drone will begin to move automatically in a straight line (until reaching the position X = 10, Y = 0). The algorithm  will detect the obstacle and avoid it.
 ![](https://github.com/dvalenciar/AR.Drone_Obstacle_Detection/blob/master/simple.gif)
+
+
+ ## Multiple obstacle simulation ##
+
+1. **Run a simulation by executing a launch file:**
+
+  ```
+  roslaunch obstacle_detection obstacle.launch
+  ```
+  it will automatically start the obstacle detection node however here you will se multiples obstacles
+  
+    
+2. **Take off the AR.Drone**
+
+  ```
+  rostopic pub -1 /ardrone/takeoff std_msgs/Empty
+  ```
+  
+3. **Run the trajectory controller node**
+
+ ```
+ rosrun obstacle_detection PIDwithObstacleDete.py
+ ```
+ 
+ The Drone will begin to move automatically in a straight line (until reaching the position X = 10, Y = 0). The algorithm  will detect and avoid all the obstacles.
+ 
+ you can find a video of the system here:
+ 
+ https://www.youtube.com/watch?v=pwoct682fJA
