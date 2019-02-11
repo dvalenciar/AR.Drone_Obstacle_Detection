@@ -60,3 +60,4 @@ Download and install the package in your personal workspace (e.g. ~/drone_simula
  ```
 
 The Drone will begin to move automatically in a straight line (until reaching the position X = 10, Y = 0). The algorithm  will detect the obstacle and avoid it.
+![](https://github.com/dvalenciar/AR.Drone_Obstacle_Detection/blob/master/simple.gif)
