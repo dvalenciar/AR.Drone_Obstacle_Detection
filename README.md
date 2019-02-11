@@ -71,8 +71,8 @@ The Drone will begin to move automatically in a straight line (until reaching th
   ```
   roslaunch obstacle_detection obstacle.launch
   ```
-  it will automatically start the obstacle detection node however here you will se multiples obstacles
-  
+  it will automatically start the obstacle detection node however, here you will see multiples obstacles
+  ![](https://github.com/dvalenciar/AR.Drone_Obstacle_Detection/blob/master/pic2.png)
     
 2. **Take off the AR.Drone**
 
@@ -86,7 +86,7 @@ The Drone will begin to move automatically in a straight line (until reaching th
  rosrun obstacle_detection PIDwithObstacleDete.py
  ```
  
- The Drone will begin to move automatically in a straight line (until reaching the position X = 10, Y = 0). The algorithm  will detect and avoid all the obstacles.
+ The Drone will begin to move automatically in a straight line (until reaching the position X = 10, Y = 0). The algorithm    will detect and avoid all the obstacles.
  
  you can find a video of the system here:
  
